@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Font;
+    src: url(./roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Font-bold;
+    src: url(./roboto/Roboto-BoldCondensed.ttf);
+}
+@font-face {
+    font-family: Font-lightItalic;
+    src: url(./roboto/Roboto-LightItalic.ttf);
+}
+@font-face {
+    font-family: Font-light;
+    src: url(./roboto/Roboto-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Font;
+}
+.hero-container{
+    background-color: #1F2937;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+}
+.header-container .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.header-container a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.header-container ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+.header2-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.right h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.right p{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 12px 12px 12px 0;
+}
+.right {
+    width: 400px;
+}
+.left {
+    flex-shrink: 0;
+}
+.butt-one,
+.butt-two{
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-weight: 800;
+    border-color: #3882F6;
+}
+.info-container h2{
+    font-family: Font-bold;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 30px;
+    text-align: center;
+}
+.infos img{
+    height: 100px;
+    width: 100px;
+}
+.infos {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 25px;
+}
+.infos .item {
+    width: 160px;
+    color: #787F8A;
+    font-size: 18px;
+    text-align: center;
+}
+.info-container {
+    margin-bottom: 50px;
+}
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+#one {
+    font-size: 30px;
+    color: #1F2937;
+    font-family: Font-lightItalic;  
+}
+#two {
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: right;
+}
+.call-container {
+    margin: 60px;
+    padding: 30px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    color: #E5E7EB;
+}
+.butt-two {
+    border-color: white;
+}
+#right p{
+    font-family: Font-light;
+    font-style: normal;
+}
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    font-family: Font-light;
+}
